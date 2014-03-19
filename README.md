@@ -14,7 +14,7 @@ Documentation is available at http://docs.shopify.com/api
 
 Every resource is accessed through your ```shopify``` instance:
 
-```
+```javascript
 var auth = {};
 
 // auth.method can be `oauth` or `basic`
@@ -30,7 +30,7 @@ var shopify = require('shopify')(auth, 'yourshopname')
 
 ## Configuration
 
-- ```shopify.setAuthMethod('basic||oauth')```
+- ```shopify.setAuthMethod('basic')```
 
 Your authentication method should be either 'basic' or 'oauth'.
 
