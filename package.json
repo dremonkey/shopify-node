@@ -6,6 +6,20 @@
     "shopify",
     "api"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dremonkey/shopify-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dremonkey/shopify-node/issues"
+  },
+  "author": "Andre Deutmeyer",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "lib/shopify.js",
   "dependencies": {
     "when": "~2.4.0"
