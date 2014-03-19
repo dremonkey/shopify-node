@@ -1,0 +1,14 @@
+{
+  "name": "shopify-node",
+  "version": "0.0.1",
+  "description": "Shopify API for NodeJS",
+  "keywords": [
+    "shopify",
+    "api"
+  ],
+  "main": "lib/shopify.js",
+  "dependencies": {
+    "when": "~2.4.0"
+  },
+  "devDependencies": {}
+}
