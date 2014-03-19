@@ -1,16 +1,16 @@
-# Shopify API wrapper
+# Shopify NodeJS Bindings
 
 Currently very early stage. Much of the code was adapted from [stripe-node](https://github.com/stripe/stripe-node).
 
-# Installation
+## Installation
 
 ``` TODO ```
 
-# Shopify API Documentation
+## Shopify API Documentation
 
 Documentation is available at http://docs.shopify.com/api
 
-# API Overview
+## API Overview
 
 Every resource is accessed through your ```shopify``` instance:
 
@@ -28,7 +28,7 @@ auth.token = 'kjdsnaiu92malfj1:jafgdqmim1utomlp0';
 var shopify = require('shopify')(auth, 'yourshopname')
 ```
 
-# Configuration
+## Configuration
 
 - ```shopify.setAuthMethod('basic||oauth')```
 
