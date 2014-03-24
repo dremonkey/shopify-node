@@ -46,7 +46,7 @@ If your authentication method is `oauth`, then your token is your OAuth accessTo
 ## Resource Methods
 
 This is still a work in progress so at this time not all the Shopify API resources 
-have been implemented. Currently the following resources are available:
+have been implemented. Currently the following are available:
 
 ```
 shopify.applicationCharges
