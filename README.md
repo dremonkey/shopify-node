@@ -48,15 +48,14 @@ If your authentication method is `oauth`, then your token is your OAuth accessTo
 This is still a work in progress so at this time not all the Shopify API resources 
 have been implemented. Currently the following resources are available:
 
-- ```shopify.applicationCharges```
-- ```shopify.articles```
-- ```shopify.blogs```
-- ```shopify.customers```
-- ```shopify.events```
-- 
+```shopify.applicationCharges```
+```shopify.articles```
+```shopify.blogs```
+```shopify.customers```
+```shopify.events```
 ```javascript 
 shopify.orders // needs to be tested
 ```
-- ```shopify.products```
-- ```shopify.scriptTags```
-- ```shopify.shop```
+```shopify.products```
+```shopify.scriptTags```
+```shopify.shop```
