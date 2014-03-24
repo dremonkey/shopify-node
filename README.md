@@ -25,7 +25,7 @@ auth.method = 'basic';
 auth.token = 'kjdsnaiu92malfj1:jafgdqmim1utomlp0';
 
 // get the shopify instance
-var shopify = require('shopify')(auth, 'yourshopname')
+var shopify = require('shopify')(auth, 'yourshopname.myshopify.com')
 ```
 
 ## Configuration
@@ -42,3 +42,18 @@ and password joined by a colon (:) so that it looks like ```yourApiKey:yourPassw
 If your authentication method is `oauth`, then your token is your OAuth accessToken.
 
 - ```shopify.setTimeout(10000)``` default is node's default: 120000ms
+
+## Working Resources
+
+This is still a work in progress so at this time not all the Shopify API resources 
+have been implemented. Currently the following resources are available:
+
+- ```shopify.applicationCharges```
+- ```shopify.articles```
+- ```shopify.blogs```
+- ```shopify.customers```
+- ```shopify.events```
+- ```javascript shopify.orders // needs to be tested```
+- ```shopify.products```
+- ```shopify.scriptTags```
+- ```shopify.shop```
