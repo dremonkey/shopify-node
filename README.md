@@ -43,7 +43,7 @@ If your authentication method is `oauth`, then your token is your OAuth accessTo
 
 - ```shopify.setTimeout(10000)``` default is node's default: 120000ms
 
-## Working Resources
+## Resource Methods
 
 This is still a work in progress so at this time not all the Shopify API resources 
 have been implemented. Currently the following resources are available:
