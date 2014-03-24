@@ -53,7 +53,9 @@ have been implemented. Currently the following resources are available:
 - ```shopify.blogs```
 - ```shopify.customers```
 - ```shopify.events```
-- ```javascript shopify.orders // needs to be tested```
+- ```javascript 
+shopify.orders // needs to be tested
+```
 - ```shopify.products```
 - ```shopify.scriptTags```
 - ```shopify.shop```
