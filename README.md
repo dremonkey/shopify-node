@@ -53,7 +53,8 @@ have been implemented. Currently the following resources are available:
 - ```shopify.blogs```
 - ```shopify.customers```
 - ```shopify.events```
-- ```javascript 
+- 
+```javascript 
 shopify.orders // needs to be tested
 ```
 - ```shopify.products```
